@@ -1,0 +1,23 @@
+Fault_Type,Fault_Name,Causes,Prescriptive Action
+CTA,Cluster of Thermal Anamolies (CTA),"CTA Fault are the Clusters of Thermal Anomalies where ""several"" cells are warmer than rest of panel. 
+It could occur: 
+1. If Diodes are defective.  
+2. If panel is broken","1. Shut down power to panel
+2. Check panel components & diodes
+3. Replace panel if required"
+Diode Fault,Bypass Diode Fault,"Diode Fault are typical fault where cells of a panel in line are short-circuited.
+It occurs if bypass diode are defective","1. Verify Fault by reverse current thermography
+2. Replace Diodes if faulty"
+FI,Faulty Interconnections (FI),"FI is Faulty Interconnections Fault where a line of panels is hotter than others.  
+It occurs due to connector oxidations","1. Check Connector box, junction box
+2. Replace connectors if required
+3. Check individual panel for any fault"
+Hot Spot,Hot Spot,"Hot spots are areas of elevated temperature affecting only part of the solar panel
+It could occur:
+1.If panel is broken /Dirt is accumulated                                                                                                      ","Large temperature diff Hotspot: Panel must be replaced
+Small temperature diff Hotspot: Dirt cleaning process must be done for solar panel"
+OHC Fault,Over Heating Components Fault (OHC Fault),"OHC Fault is Over Heating Components Fault where one module/panel is hotter than the others.
+It could occur due to: 
+Overheating of components in junction and connection boxes","1. Shut down power for detected panel
+2. Identify Overheated Components
+3. Replace /Repair it."
